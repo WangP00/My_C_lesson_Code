@@ -28,6 +28,7 @@ int main(int argc, char const *argv[])
 	char secret_key[100];
 	i = 0;
 	int j = 0;
+	
 	while (scanf("%c", &input_key[i]) == 1) {
 		if (input_key[i] == 32)
 		{
